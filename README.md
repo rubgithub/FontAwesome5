@@ -22,6 +22,20 @@ The usage is the same like the version from charri, just the FontAwesomeIcon enu
 
 https://github.com/charri/Font-Awesome-WPF/blob/master/README-WPF.md#usage-xaml
 
+#### Usage XAML UWP
+
+``` 
+<Page
+         ...
+        xmlns:fa5="using:FontAwesome5.UWP"
+        ...
+        mc:Ignorable="d">
+    <Grid  Margin="20">
+        <fa5:FontAwesome Icon="Solid_Home"/>
+    </Grid>
+</Page>
+```
+
 #### Usage XAML SVG
 
 The SvgAwesome can be used like the ImageAwesome.
